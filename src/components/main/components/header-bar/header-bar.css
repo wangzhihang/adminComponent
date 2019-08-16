@@ -1,0 +1,66 @@
+.header-bar {
+  position: relative;
+}
+.header-bar .header-con {
+  color: #ffffff;
+  float: right;
+  height: auto;
+  margin-right: 20px;
+  line-height: 26px;
+}
+.header-bar .header-con > * {
+  float: right;
+  padding: 0 15px;
+  color: #CAD0D7;
+}
+#editpassword {
+  padding: 0 10px;
+}
+#editpassword .ivu-dropdown-item {
+  margin: 0;
+  line-height: normal;
+  clear: both;
+  color: #ffffff;
+  font-size: 12px !important;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+#editpassword .dropDownColor a span {
+  color: #CAD0D7;
+}
+#editpassword .dropdownBg {
+  background: #7AC6EA;
+  color: #ffffff;
+}
+#editpassword .ivu-dropdown-item:hover,
+#editpassword .ivu-dropdown-item:active {
+  background: #7AC6EA;
+  color: #ffffff !important;
+}
+#editpassword .ivu-form-item {
+  margin-bottom: 18px;
+  vertical-align: top;
+  zoom: 1;
+}
+#editpassword .ivu-select-dropdown {
+  color: #ffffff !important;
+  background-color: #7AC6EA;
+}
+.miniHeaderBg #editpassword,
+.miniHeaderBg .header-bar .custom-content-con > *,
+.miniHeaderBg #editpassword .dropDownColor a span {
+  color: #CAD0D7;
+}
+.miniHeaderBg #editpassword .dropdownBg,
+.miniHeaderBg .header-bar .custom-content-con > * .dropdownBg,
+.miniHeaderBg #editpassword .dropDownColor a span .dropdownBg {
+  background: #07334D;
+}
+.miniHeaderBg #editpassword .ivu-select-dropdown,
+.miniHeaderBg .header-bar .custom-content-con > * .ivu-select-dropdown,
+.miniHeaderBg #editpassword .dropDownColor a span .ivu-select-dropdown {
+  background: #07334D;
+}

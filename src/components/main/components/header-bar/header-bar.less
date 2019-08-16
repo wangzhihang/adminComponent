@@ -1,0 +1,76 @@
+@mainBgColor:#e4e7ef;
+@mainHeaderLeftBgColor:#418BFA;
+@mainHeaderRightBgColor:#56B1FC;
+@miniMainHeaderLeftBgcolor:#022b44 ;
+@miniMainHeaderRightBgcolor:#1e6792 ;
+@mainHeaderColor:#CAD0D7;
+@mainSidebarBgColor:#ffffff;
+@mainSidebarSelectedBgColor:#7AC6EA;;
+@miniMainSidebarBgcolor:#07334D;
+@sidebarColor:#515a6e;
+@txtColor:#ffffff;
+
+.header-bar{
+    position: relative;
+    .header-con{
+      color: @txtColor;
+      float: right;
+      height: auto;
+      margin-right: 20px;
+      line-height: 26px;
+      & > *{
+        float: right;
+        padding: 0 15px;
+        color: @mainHeaderColor
+      }
+    }
+  }
+  #editpassword {
+    padding: 0 10px;
+    // border-right: 1px solid #0c9fb0;
+    .ivu-dropdown-item {
+      margin: 0;
+      line-height: normal;
+      // padding: 5px 0 5px 25px;
+      clear: both;
+      color: @txtColor;
+      font-size: 12px !important;
+      white-space: nowrap;
+      list-style: none;
+      cursor: pointer;
+      -webkit-transition: background 0.2s ease-in-out;
+      transition: background 0.2s ease-in-out;
+    }
+    .dropDownColor a span{
+      color:@mainHeaderColor;
+    }
+    .dropdownBg{
+      background: @mainSidebarSelectedBgColor;
+      color:@txtColor;
+    }
+    .ivu-dropdown-item:hover,.ivu-dropdown-item:active{
+      background: @mainSidebarSelectedBgColor;
+      color: @txtColor!important;
+    }
+    .ivu-form-item {
+      margin-bottom: 18px;
+      vertical-align: top;
+      zoom: 1;
+    }
+    .ivu-select-dropdown{
+      color: @txtColor!important;
+      background-color: @mainSidebarSelectedBgColor;
+    }
+  
+  }
+  .miniHeaderBg{
+    #editpassword,.header-bar .custom-content-con > *,#editpassword  .dropDownColor a span{
+      color: @mainHeaderColor;
+      .dropdownBg{
+        background: @miniMainSidebarBgcolor;
+      }
+      .ivu-select-dropdown{
+        background: @miniMainSidebarBgcolor;
+      }
+    }
+  }

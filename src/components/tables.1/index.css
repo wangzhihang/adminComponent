@@ -1,0 +1,20 @@
+.tables thead {
+  font-weight: 600;
+}
+.tables .search-con {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.tables .search-con .search-col {
+  display: inline-block;
+  width: 200px;
+}
+.tables .search-con .search-input {
+  display: inline-block;
+  width: 200px;
+  margin-left: 2px;
+}
+.tables .search-con .search-btn {
+  margin-left: 2px;
+}
