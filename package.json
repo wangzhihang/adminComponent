@@ -9,7 +9,7 @@
   "dependencies": {
     "async-validator": "^1.11.5",
     "iview": "^3.4.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.4",
     "vue-propsync": "^0.1.3",
